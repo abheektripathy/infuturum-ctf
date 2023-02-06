@@ -1,91 +1,65 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from './page.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import MainSection from "@/components/mainsection";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
+    // <MainSection></MainSection>
+    <div className="relative h-screen w-screen bg-black">
+  <video
+    src="/bgedit.mp4"
+    autoPlay
+    muted
+    loop
+    className="absolute h-full w-full object-cover opacity-80"
+  />
+  <div className="absolute inset-0 flex items-center justify-center">
+    <h1 className="text-white text-8xl font-bold font-poppins text-center" style={{
+        background: 'linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))',
+        backgroundClip: 'text',
+        WebkitBackgroundClip: 'text',
+        WebkitTextFillColor: 'transparent',
+      }}>infuturum</h1>
+  </div>
+</div>
+  
+  //   <section className="h-screen bg-secondary">
+  //   <video
+  //     src="/bgedit.mp4"
+  //     autoPlay
+  //     muted
+  //     loop
+  //     className="absolute h-full w-full object-cover brightness-80"
+  //   />
+  // <div className="relative flex h-screen w-screen flex-col items-center py-[20%] px-[2%] md:flex-row md:items-start md:px-[4%]">
+  //       <div className="flex h-full flex-col items-center justify-center space-y-[12%] md:w-2/4 md:items-start">
+  //         <div className="flex flex-col items-center space-y-2 text-center md:items-start md:text-start lg:w-4/5">
+  //           <h2 className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-6xl font-bold text-transparent md:text-7xl lg:text-8xl">
+  //             infururum
+  //           </h2>
+  //           <h3 className="text-3xl text-primary md:text-4xl lg:text-5xl">
+  //             Join the [strift] revolution
+  //           </h3>
+  //         </div>
+  //         <div className="flex w-5/6 flex-col items-center space-y-2 text-center md:items-start md:text-start lg:w-7/12">
+  //         <h1 className="absolute font-bold text-6xl leading-tight text-center items-center text-transparent" >
+  //     Infurum
+  //   </h1>
+  //           <button className="btn-secondary glass btn-lg btn md:btn-block">
+  //             Become a label
+  //           </button>
+  //         </div>
+  //       </div>
+  //       <div className="flex h-full w-full flex-col items-center justify-center md:w-2/4">
 
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+  //         <h3 className="text-2xl tracking-widest text-primary lg:text-4xl">
+  //           LABELS
+  //         </h3>
+  //       </div>
+  //     </div>
+  //   </section>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
+   
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      
   )
 }
