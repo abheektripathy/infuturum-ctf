@@ -31,7 +31,7 @@ export default function Home() {
 
 <div className="relative h-screen w-screen bg-black">
   <video
-    src="/bgedit.mp4"
+    src="/bgeditcomp.mp4"
     autoPlay
     muted
     loop
