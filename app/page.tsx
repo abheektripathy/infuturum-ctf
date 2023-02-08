@@ -33,7 +33,7 @@ export default function Home() {
   
   <div className="absolute inset-0 mb-10 flex items-center justify-center">
     <li className="content-center">
-    <h1 className="text-white text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold font-poppins text-center mb-10" style={{
+    <h1 className="text-white text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold font-poppins text-center mb-10 ml-5 mr-5"  style={{
         background: 'linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))',
         backgroundClip: 'text',
         WebkitBackgroundClip: 'text',
