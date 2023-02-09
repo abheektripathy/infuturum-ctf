@@ -1,9 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 
+import Header from "@/components/header";
+
 export default function Home() {
   return (
+
     <div className="bg-black">
+      <Header></Header>
       <div className="relative h-screen w-screen bg-black">
         <video
           src="/bgeditcomp2.webm"

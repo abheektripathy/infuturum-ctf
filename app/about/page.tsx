@@ -6,6 +6,7 @@ const Timeline: React.FC = () => {
 
   return (
     <>
+    <Header></Header>
       <div className="flex flex-col pt-44 xs:pt-64 md:pt-0 lg:pt-0 xl:pt-0 bg-black">
         <div className="relative h-screen w-screen min-h-full  bg-black">
           <div className="flex flex-col justify-center items-center w-full h-full">
