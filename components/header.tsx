@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
   return (
-    <div className="relative h-64 w-64 bg-black">
+    
     <div className='bg-black'>
 <div className="navbar bg-black">
   <div className="flex-1">
@@ -22,7 +22,7 @@ function Header() {
   </div>
 </div>
 </div>
-</div>
+
   )
 }
 
