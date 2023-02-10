@@ -5,9 +5,9 @@ import Header from "@/components/header";
 
 export default function Home() {
   return (
-
+    <>
+<Header></Header>
     <div className="bg-black">
-      <Header></Header>
       <div className="relative h-screen w-screen bg-black">
         <video
           src="/bgeditcomp2.webm"
@@ -47,5 +47,6 @@ export default function Home() {
         </div>
       </div>
     </div>
+    </>
   );
 }

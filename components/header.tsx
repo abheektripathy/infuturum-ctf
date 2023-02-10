@@ -2,6 +2,7 @@ import React from 'react'
 
 function Header() {
   return (
+    <div className="relative h-64 w-64 bg-black">
     <div className='bg-black'>
 <div className="navbar bg-black">
   <div className="flex-1">
@@ -19,6 +20,7 @@ function Header() {
       <li><a href = "https://tally.so/r/wQo6Pp" className="font-mono">register</a></li>
     </ul>
   </div>
+</div>
 </div>
 </div>
   )
