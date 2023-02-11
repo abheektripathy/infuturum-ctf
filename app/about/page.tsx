@@ -90,10 +90,7 @@ const Timeline: React.FC = () => {
                   fishHunt
                 </h4>
                 <p className="text-gray-500 mb-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque scelerisque diam non nisi semper, et elementum lorem
-                  ornare. Maecenas placerat facilisis mollis. Duis sagittis
-                  ligula in sodales vehicula.
+                The Coding Treasure Hunt challenges participants to solve coding puzzles and decipher codes to find the hidden treasure, combining adventure and problem-solving in a thrilling competition.
                 </p>
               </div>
             </li>
@@ -104,27 +101,25 @@ const Timeline: React.FC = () => {
               </div>
               <div className="mt-0.5 ml-4 mb-6">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  Hackerhouse
+                  Resem
                 </h4>
                 <p className="text-gray-500 mb-3">
-                  Libero expedita explicabo eius fugiat quia aspernatur autem
-                  laudantium error architecto recusandae natus sapiente sit nam
-                  eaque, consectetur porro molestiae ipsam an deleniti.
+                A Research based Hackathon by ACM is a premier event for researchers, providing a platform to showcase innovative ideas, network, and compete for prizes by presenting a condensed research paper. An opportunity to make a lasting impact in this field.
                 </p>
               </div>
             </li>
+            
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
                 <p className="text-gray-500 text-sm">25.11.2021</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
-                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono"></h4>
+                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
+                Breakout Rooms
+                </h4>
                 <p className="text-gray-500 mb-3">
-                  Voluptatibus temporibus esse illum eum aspernatur, fugiat
-                  suscipit natus! Eum corporis illum nihil officiis tempore.
-                  Excepturi illo natus libero sit doloremque, laborum molestias
-                  rerum pariatur quam ipsam necessitatibus incidunt, explicabo.
+                Breakout Rooms were designed with the philosophy that the best way to overcome a challenge is to solve it. Participants form teams and tackle a task, writing down their ideas and opinions on a whiteboard, using their creativity to find innovative solutions.
                 </p>
               </div>
             </li>
@@ -135,13 +130,10 @@ const Timeline: React.FC = () => {
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  Title of section 3
+                  Movie Night
                 </h4>
                 <p className="text-gray-500 mb-3">
-                  Voluptatibus temporibus esse illum eum aspernatur, fugiat
-                  suscipit natus! Eum corporis illum nihil officiis tempore.
-                  Excepturi illo natus libero sit doloremque, laborum molestias
-                  rerum pariatur quam ipsam necessitatibus incidunt, explicabo.
+                Movie Night is the perfect way to end a three-day fest with a fun and entertaining experience. The night will feature a screening of a thrilling sci-fi movie, providing a delightful and amusing ending to the fest.
                 </p>
               </div>
             </li>
@@ -152,13 +144,38 @@ const Timeline: React.FC = () => {
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  Title of section 3
+                 Leadeship Summit
                 </h4>
                 <p className="text-gray-500 mb-3">
-                  Voluptatibus temporibus esse illum eum aspernatur, fugiat
-                  suscipit natus! Eum corporis illum nihil officiis tempore.
-                  Excepturi illo natus libero sit doloremque, laborum molestias
-                  rerum pariatur quam ipsam necessitatibus incidunt, explicabo.
+                The Leadership Summit is a transformative event for aspiring leaders, providing rare access to industry experts and influencers for personal and professional growth through hands-on experience and valuable insights. A must-attend opportunity.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div className="flex flex-start items-center pt-2">
+                <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
+                <p className="text-gray-500 text-sm">25.11.2021</p>
+              </div>
+              <div className="mt-0.5 ml-4 pb-5">
+                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
+                  Movie Night
+                </h4>
+                <p className="text-gray-500 mb-3">
+                Movie Night is the perfect way to end a three-day fest with a fun and entertaining experience. The night will feature a screening of a thrilling sci-fi movie, providing a delightful and amusing ending to the fest.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div className="flex flex-start items-center pt-2">
+                <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
+                <p className="text-gray-500 text-sm">25.11.2021</p>
+              </div>
+              <div className="mt-0.5 ml-4 pb-5">
+                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
+                  Movie Night
+                </h4>
+                <p className="text-gray-500 mb-3">
+                Movie Night is the perfect way to end a three-day fest with a fun and entertaining experience. The night will feature a screening of a thrilling sci-fi movie, providing a delightful and amusing ending to the fest.
                 </p>
               </div>
             </li>

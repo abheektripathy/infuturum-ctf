@@ -18,7 +18,7 @@ export default function Home() {
   </div>
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1">
-      <li><a href ="/about "className="font-mono">itinerary</a></li>
+      <li><a href ="/about "className="font-mono">about</a></li>
 
       <li><a href = "https://tally.so/r/wQo6Pp" className="font-mono">register</a></li>
     </ul>
@@ -26,7 +26,7 @@ export default function Home() {
 </div>
 <div className="relative h-screen w-screen bg-black">
   <video
-    src="/bgeditcomp2.webm"
+    src="/bgeditcomp2.mp4"
     autoPlay
     muted
     loop
