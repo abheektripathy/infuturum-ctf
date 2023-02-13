@@ -198,7 +198,7 @@ const Timeline: React.FC = () => {
     <img src="/favicon.ico" className="rounded-box" />
   </div> 
   <div className="carousel-item">
-    <img src="/favicon.ico" className="rounded-box" />
+    <img src="/mentorx.png" className="rounded-box" />
   </div> 
   <div className="carousel-item">
     <img src="/favicon.ico" className="rounded-box" />
