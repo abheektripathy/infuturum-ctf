@@ -3,7 +3,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Header from "@/components/header";
 import React from "react";
-// import DOMPurify from 'dompurify';
 
 const Timeline: React.FC = () => {
   return (
@@ -40,9 +39,12 @@ const Timeline: React.FC = () => {
           </ul>
         </div>
       </div>
+    
+
       <div className="w-screen h-screen bg-black">
         <br></br>
-        
+        {/* <div className="bg-[url('/ring.png')]"> */}
+
         <h1
           className="text-white text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold font-mono text-center mb-10 ml-5 mr-5"
           style={{
@@ -120,8 +122,8 @@ const Timeline: React.FC = () => {
             </li>
             
             <li>
-            <img style={{ width: "50%", height: "50%", position: 'absolute' }} src = {"/phone.jpg" }
-        className="h-full w-full object-cover opacity-30"/>
+            {/* <img style={{ width: "50%", height: "50%", position: 'absolute' }} src = {"/phone.jpg" }
+        className="h-full w-full object-cover opacity-30"/> */}
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
                 <p className="text-gray-500 text-sm">25.11.2021</p>
@@ -215,14 +217,14 @@ const Timeline: React.FC = () => {
   <div className="carousel-item">
     <img src="/favicon.ico" className="rounded-box" />
   </div>
-</div>
 {/* </div> */}
+</div>
 </div>
 
         </div>
   <div className="bg-black">
         <h1
-          className="text-white text-xl md:text-xl lg:text-xl xl:text-xl font-bold font-poppins text-center ml-5"
+          className="text-white text-2xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-poppins text-right ml-5 px-5"
           style={{
             background:
               "linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))",
@@ -233,13 +235,13 @@ const Timeline: React.FC = () => {
         >
          Contact Us
         </h1>
-        <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-center">
+        <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-right">
         Get in touch with our team for any assistance and inquiries.
         </h6>
-        <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-center" ><b>Ishan (Event management head)</b>: <a href="tel:+919821184504">+91 98211 84504</a></h6>
-        <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-center" ><b>Abhimanyu (Treasurer)</b>: <a href="tel:+919729245712">+91 97292 45712</a></h6>
-        <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-center" ><b>Arjun (PR and Outreach head)</b>: <a href="tel:+917355619956">+91 73556 19956</a></h6>
-        <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-center" >Mail us: <a href = "mailto: acm@bennett.something">acm@bennett.edu.in</a></h6>
+        <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-right" ><b>Ishan (Event management head)</b>: <a href="tel:+919821184504">+91 98211 84504</a></h6>
+        <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-right" ><b>Abhimanyu (Treasurer)</b>: <a href="tel:+919729245712">+91 97292 45712</a></h6>
+        <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-right" ><b>Arjun (PR and Outreach head)</b>: <a href="tel:+917355619956">+91 73556 19956</a></h6>
+        <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-right" >Mail us: <a href = "mailto: acm@bennett.something">acm@bennett.edu.in</a></h6>
         <br></br>
         <br></br>
 
