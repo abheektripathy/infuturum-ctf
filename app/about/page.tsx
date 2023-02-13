@@ -13,8 +13,7 @@ const Timeline: React.FC = () => {
             href="/"
             className="text-white text-xl md:text-xl lg:text-xl xl:text-xl font-bold font-poppins text-center ml-5"
             style={{
-              background:
-                "linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))",
+              background: 'linear-gradient(to right,rgba(135, 206, 235, 1), rgba(1, 0, 70, 1))',
               backgroundClip: "text",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
@@ -43,13 +42,11 @@ const Timeline: React.FC = () => {
 
       <div className="w-screen h-screen bg-black">
         <br></br>
-        {/* <div className="bg-[url('/ring.png')]"> */}
 
         <h1
           className="text-white text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold font-mono text-center mb-10 ml-5 mr-5"
           style={{
-            background:
-              "linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))",
+              background: 'linear-gradient(to right,rgba(135, 206, 235, 1), rgba(1, 0, 70, 1))',
             backgroundClip: "text",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
@@ -74,8 +71,7 @@ const Timeline: React.FC = () => {
         <h1
           className="text-white text-2xl md:text-3xl lg:text-3xl xl:text-3xl font-bold font-mono text-left mb-1 ml-10 mr-5"
           style={{
-            background:
-              "linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))",
+            background: 'linear-gradient(to right,rgba(135, 206, 235, 1), rgba(1, 0, 70, 1))',
             backgroundClip: "text",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
@@ -93,7 +89,7 @@ const Timeline: React.FC = () => {
                 <p className="text-gray-500 text-sm">01.07.2021</p>
               </div>
               <div className="mt-0.5 ml-4 mb-6">
-                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
+                <h4 className="text-blue-600 font-semibold text-xl mb-1.5 font-mono">
                   fishHunt
                 </h4>
                 <p className="text-gray-500 mb-3">
@@ -107,7 +103,7 @@ const Timeline: React.FC = () => {
                 <p className="text-gray-500 text-sm">13.09.2021</p>
               </div>
               <div className="mt-0.5 ml-4 mb-6">
-                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
+                <h4 className="text-blue-600 font-semibold text-xl mb-1.5 font-mono">
                   Resem
                 </h4>
                 <p className="text-gray-500 mb-3">
@@ -122,7 +118,7 @@ const Timeline: React.FC = () => {
                 <p className="text-gray-500 text-sm">25.11.2021</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
-                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
+                <h4 className="text-blue-600 font-semibold text-xl mb-1.5 font-mono">
                 Breakout Rooms
                 </h4>
                 <p className="text-gray-500 mb-3">
@@ -136,7 +132,7 @@ const Timeline: React.FC = () => {
                 <p className="text-gray-500 text-sm">25.11.2021</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
-                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
+                <h4 className="text-blue-600 font-semibold text-xl mb-1.5 font-mono">
                   Movie Night
                 </h4>
                 <p className="text-gray-500 mb-3">
@@ -150,7 +146,7 @@ const Timeline: React.FC = () => {
                 <p className="text-gray-500 text-sm">25.11.2021</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
-                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
+                <h4 className="text-blue-600 font-semibold text-xl mb-1.5 font-mono">
                  Leadeship Summit
                 </h4>
                 <p className="text-gray-500 mb-3">
@@ -164,7 +160,7 @@ const Timeline: React.FC = () => {
                 <p className="text-gray-500 text-sm">prolly 25.11.2021</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
-                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
+                <h4 className="text-blue-600 font-semibold text-xl mb-1.5 font-mono">
                   MentorXWorkshop
                 </h4>
                 <p className="text-gray-500 mb-3">
@@ -178,7 +174,7 @@ const Timeline: React.FC = () => {
                 <p className="text-gray-500 text-sm">25.11.2021</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
-                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
+                <h4 className="text-blue-600 font-semibold text-xl mb-1.5 font-mono">
                   Some online event
                 </h4>
                 <p className="text-gray-500 mb-3">
@@ -188,9 +184,9 @@ const Timeline: React.FC = () => {
             </li>
           </ol>
           <div className="content-center justify-center place-content-center mx-10 my-10">
-          <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-white rounded-box place-content-center ">
-  <div className="carousel-item ">
-    <img src="/favicon.ico" className="rounded-box" />
+          <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-white rounded-box place-content-center">
+  <div className="carousel-item content-center ">
+    <img src="/favicon.ico" className="rounded-box place-content-center" />
   </div> 
   <div className="carousel-item">
     <img src="/favicon.ico" className="rounded-box" />
@@ -210,7 +206,6 @@ const Timeline: React.FC = () => {
   <div className="carousel-item">
     <img src="/favicon.ico" className="rounded-box" />
   </div>
-{/* </div> */}
 </div>
 </div>
 
@@ -219,8 +214,7 @@ const Timeline: React.FC = () => {
         <h1
           className="text-white text-2xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-poppins text-right ml-5 px-5"
           style={{
-            background:
-              "linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))",
+            background: 'linear-gradient(to right,rgba(135, 206, 235, 1), rgba(1, 0, 70, 1))',
             backgroundClip: "text",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
