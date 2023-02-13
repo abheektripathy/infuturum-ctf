@@ -3,6 +3,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Header from "@/components/header";
 import React from "react";
+// import DOMPurify from 'dompurify';
 
 const Timeline: React.FC = () => {
   return (
@@ -192,7 +193,7 @@ const Timeline: React.FC = () => {
             </li>
           </ol>
           <div className="content-center justify-center place-content-center mx-10 my-10">
-          {/* <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-white rounded-box place-content-center ">
+          <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-white rounded-box place-content-center ">
   <div className="carousel-item ">
     <img src="/favicon.ico" className="rounded-box" />
   </div> 
@@ -214,7 +215,7 @@ const Timeline: React.FC = () => {
   <div className="carousel-item">
     <img src="/favicon.ico" className="rounded-box" />
   </div>
-</div> */}
+</div>
 {/* </div> */}
 </div>
 
@@ -235,6 +236,10 @@ const Timeline: React.FC = () => {
         <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-center">
         Get in touch with our team for any assistance and inquiries.
         </h6>
+        <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-center" ><b>Ishan (Event management head)</b>: <a href="tel:+919821184504">+91 98211 84504</a></h6>
+        <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-center" ><b>Abhimanyu (Treasurer)</b>: <a href="tel:+919729245712">+91 97292 45712</a></h6>
+        <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-center" ><b>Arjun (PR and Outreach head)</b>: <a href="tel:+917355619956">+91 73556 19956</a></h6>
+        <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-center" >Mail us: <a href = "mailto: acm@bennett.something">acm@bennett.edu.in</a></h6>
         <br></br>
         <br></br>
 
