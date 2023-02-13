@@ -27,7 +27,7 @@ export default function Home() {
 </div>
 <div className="relative h-screen w-screen bg-black">
   <video
-    src="/bgeditcomp2_blue_noWatermark.mp4"
+    src="/bgeditcomp2_blue_noWatermark.webm"
     autoPlay
     muted
     loop

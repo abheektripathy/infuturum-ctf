@@ -186,7 +186,7 @@ const Timeline: React.FC = () => {
           <div className="content-center justify-center place-content-center mx-10 my-10">
           <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-white rounded-box place-content-center">
   <div className="carousel-item content-center ">
-    <img src="/favicon.ico" className="rounded-box place-content-center" />
+    <img src="/favicon.ico" className="rounded-box place-content-left" />
   </div> 
   <div className="carousel-item">
     <img src="/favicon.ico" className="rounded-box" />
@@ -198,7 +198,7 @@ const Timeline: React.FC = () => {
     <img src="/favicon.ico" className="rounded-box" />
   </div> 
   <div className="carousel-item">
-    <img src="/mentorx.png" className="rounded-box" />
+    <img src="/mentorx.png" className="rounded-box"/>
   </div> 
   <div className="carousel-item">
     <img src="/favicon.ico" className="rounded-box" />
