@@ -57,12 +57,7 @@ const Timeline: React.FC = () => {
         >
           into the future.
         </h1>
-        {/* <div className="relative h-screen w-screen bg-black" > */}
-          {/* <div style={{ backgroundImage: "url(${/public/neon-tree-removebg-preview.png})",
-      width: '250px'
-      }}>
-        </div> */}
-        
+
         <p className="text-gray-400 mt-2 ml-10 mb-6 mr-10 text-center">
           Get ready for INFUTURUM, a celebratory extravaganza that marks the
           75th anniversary of ACM BU! Get ready for a scintillating journey that
@@ -122,8 +117,6 @@ const Timeline: React.FC = () => {
             </li>
             
             <li>
-            {/* <img style={{ width: "50%", height: "50%", position: 'absolute' }} src = {"/phone.jpg" }
-        className="h-full w-full object-cover opacity-30"/> */}
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
                 <p className="text-gray-500 text-sm">25.11.2021</p>
