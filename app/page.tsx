@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-/* eslint-disable react/no-unescaped-entities */
-
+/* eslint-disable react/no-unescaped-entities */  
 
 
 export default function Home() {
@@ -31,7 +30,7 @@ export default function Home() {
     autoPlay
     muted
     loop
-    className="absolute h-full w-full object-cover opacity-80"
+    className="absolute h-full w-full object-cover opacity-60"
   />
   
   <div className="absolute inset-0 mb-10 flex items-center justify-center">

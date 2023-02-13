@@ -79,8 +79,8 @@ const Timeline: React.FC = () => {
         >
           itinerary
         </h1>
-        <img style={{ width: "50%", height: "50%", position: 'absolute', left: "30%", top: "43%" }} src = {"/neon-tree-removebg-preview.png" }
-        className="h-full w-full object-cover opacity-30"/>
+        {/* <img style={{ width: "50%", height: "50%", position: 'absolute', left: "30%", top: "43%" }} src = {"/neon-tree-removebg-preview.png" }
+        className="h-full w-full object-cover opacity-30"/> */}
         <div className="px-10 py-10 bg-black">
           <ol className="border-l border-gray-300">
             <li>
@@ -184,7 +184,7 @@ const Timeline: React.FC = () => {
             </li>
           </ol>
           <div className="content-center justify-center place-content-center mx-10 my-10">
-          <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-white rounded-box place-content-center">
+          <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-black rounded-box place-content-center">
   <div className="carousel-item content-center ">
     <img src="/favicon.ico" className="rounded-box place-content-left" />
   </div> 
