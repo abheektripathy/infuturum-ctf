@@ -1,0 +1,6 @@
+import pyautogui
+import time
+
+time.sleep(10)
+
+pyautogui.write('''Total no of ways to connect all these Schools with the minimum possible cost:''')
