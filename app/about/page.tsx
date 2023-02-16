@@ -13,8 +13,7 @@ const Timeline: React.FC = () => {
             href="/"
             className="text-white text-xl md:text-xl lg:text-xl xl:text-xl font-bold font-poppins text-center ml-5"
             style={{
-              background:
-                "linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))",
+              background: 'linear-gradient(to right,rgba(135, 206, 235, 1), rgba(1, 0, 70, 1))',
               backgroundClip: "text",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
@@ -27,25 +26,27 @@ const Timeline: React.FC = () => {
           <ul className="menu menu-horizontal px-1">
             <li>
               <a href="/about " className="font-mono">
-                about
+                About
               </a>
             </li>
 
             <li>
               <a href="https://tally.so/r/wQo6Pp" className="font-mono">
-                register
+                Register
               </a>
             </li>
           </ul>
         </div>
       </div>
+    
+
       <div className="w-screen h-screen bg-black">
         <br></br>
+
         <h1
           className="text-white text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold font-mono text-center mb-10 ml-5 mr-5"
           style={{
-            background:
-              "linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))",
+              background: 'linear-gradient(to right,rgba(135, 206, 235, 1), rgba(1, 0, 70, 1))',
             backgroundClip: "text",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
@@ -53,6 +54,7 @@ const Timeline: React.FC = () => {
         >
           into the future.
         </h1>
+
         <p className="text-gray-400 mt-2 ml-10 mb-6 mr-10 text-center">
           Get ready for INFUTURUM, a celebratory extravaganza that marks the
           75th anniversary of ACM BU! Get ready for a scintillating journey that
@@ -69,8 +71,7 @@ const Timeline: React.FC = () => {
         <h1
           className="text-white text-2xl md:text-3xl lg:text-3xl xl:text-3xl font-bold font-mono text-left mb-1 ml-10 mr-5"
           style={{
-            background:
-              "linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))",
+            background: 'linear-gradient(to right,rgba(135, 206, 235, 1), rgba(1, 0, 70, 1))',
             backgroundClip: "text",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
@@ -78,6 +79,8 @@ const Timeline: React.FC = () => {
         >
           itinerary
         </h1>
+        {/* <img style={{ width: "50%", height: "50%", position: 'absolute', left: "30%", top: "43%" }} src = {"/neon-tree-removebg-preview.png" }
+        className="h-full w-full object-cover opacity-30"/> */}
         <div className="px-10 py-10 bg-black">
           <ol className="border-l border-gray-300">
             <li>
@@ -86,7 +89,7 @@ const Timeline: React.FC = () => {
                 <p className="text-gray-500 text-sm">01.07.2021</p>
               </div>
               <div className="mt-0.5 ml-4 mb-6">
-                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
+                <h4 className="text-blue-600 font-semibold text-xl mb-1.5 font-mono">
                   fishHunt
                 </h4>
                 <p className="text-gray-500 mb-3">
@@ -100,7 +103,7 @@ const Timeline: React.FC = () => {
                 <p className="text-gray-500 text-sm">13.09.2021</p>
               </div>
               <div className="mt-0.5 ml-4 mb-6">
-                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
+                <h4 className="text-blue-600 font-semibold text-xl mb-1.5 font-mono">
                   Resem
                 </h4>
                 <p className="text-gray-500 mb-3">
@@ -115,7 +118,7 @@ const Timeline: React.FC = () => {
                 <p className="text-gray-500 text-sm">25.11.2021</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
-                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
+                <h4 className="text-blue-600 font-semibold text-xl mb-1.5 font-mono">
                 Breakout Rooms
                 </h4>
                 <p className="text-gray-500 mb-3">
@@ -129,7 +132,7 @@ const Timeline: React.FC = () => {
                 <p className="text-gray-500 text-sm">25.11.2021</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
-                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
+                <h4 className="text-blue-600 font-semibold text-xl mb-1.5 font-mono">
                   Movie Night
                 </h4>
                 <p className="text-gray-500 mb-3">
@@ -143,7 +146,7 @@ const Timeline: React.FC = () => {
                 <p className="text-gray-500 text-sm">25.11.2021</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
-                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
+                <h4 className="text-blue-600 font-semibold text-xl mb-1.5 font-mono">
                  Leadeship Summit
                 </h4>
                 <p className="text-gray-500 mb-3">
@@ -154,14 +157,14 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="text-gray-500 text-sm">25.11.2021</p>
+                <p className="text-gray-500 text-sm">prolly 25.11.2021</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
-                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  Movie Night
+                <h4 className="text-blue-600 font-semibold text-xl mb-1.5 font-mono">
+                  MentorXWorkshop
                 </h4>
                 <p className="text-gray-500 mb-3">
-                Movie Night is the perfect way to end a three-day fest with a fun and entertaining experience. The night will feature a screening of a thrilling sci-fi movie, providing a delightful and amusing ending to the fest.
+                MentorXWorkshop is something something something...
                 </p>
               </div>
             </li>
@@ -171,19 +174,19 @@ const Timeline: React.FC = () => {
                 <p className="text-gray-500 text-sm">25.11.2021</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
-                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  Movie Night
+                <h4 className="text-blue-600 font-semibold text-xl mb-1.5 font-mono">
+                  Some online event
                 </h4>
                 <p className="text-gray-500 mb-3">
-                Movie Night is the perfect way to end a three-day fest with a fun and entertaining experience. The night will feature a screening of a thrilling sci-fi movie, providing a delightful and amusing ending to the fest.
+                Some onlive event description
                 </p>
               </div>
             </li>
           </ol>
           <div className="content-center justify-center place-content-center mx-10 my-10">
-          <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-white rounded-box place-content-center ">
-  <div className="carousel-item ">
-    <img src="/favicon.ico" className="rounded-box" />
+          <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-black rounded-box place-content-center">
+  <div className="carousel-item content-center ">
+    <img src="/favicon.ico" className="rounded-box place-content-left" />
   </div> 
   <div className="carousel-item">
     <img src="/favicon.ico" className="rounded-box" />
@@ -195,7 +198,7 @@ const Timeline: React.FC = () => {
     <img src="/favicon.ico" className="rounded-box" />
   </div> 
   <div className="carousel-item">
-    <img src="/favicon.ico" className="rounded-box" />
+    <img src="/mentorx.png" className="rounded-box"/>
   </div> 
   <div className="carousel-item">
     <img src="/favicon.ico" className="rounded-box" />
@@ -209,10 +212,9 @@ const Timeline: React.FC = () => {
         </div>
   <div className="bg-black">
         <h1
-          className="text-white text-2xl md:text-3xl lg:text-3xl xl:text-3xl font-bold font-mono text-right mb-1 ml-10 mr-5"
+          className="text-white text-2xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-poppins text-right ml-5 px-5"
           style={{
-            background:
-              "linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))",
+            background: 'linear-gradient(to right,rgba(135, 206, 235, 1), rgba(1, 0, 70, 1))',
             backgroundClip: "text",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
@@ -223,6 +225,10 @@ const Timeline: React.FC = () => {
         <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-right">
         Get in touch with our team for any assistance and inquiries.
         </h6>
+        <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-right" ><b>Ishan (Event management head)</b>: <a href="tel:+919821184504">+91 98211 84504</a></h6>
+        <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-right" ><b>Abhimanyu (Treasurer)</b>: <a href="tel:+919729245712">+91 97292 45712</a></h6>
+        <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-right" ><b>Arjun (PR and Outreach head)</b>: <a href="tel:+917355619956">+91 73556 19956</a></h6>
+        <h6 className="text-gray-400 mt-2 ml-10 mb-6 mr-5 text-right" >Mail us: <a href = "mailto: acm@bennett.something">acm@bennett.edu.in</a></h6>
         <br></br>
         <br></br>
 
