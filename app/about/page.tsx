@@ -153,7 +153,7 @@ const Timeline: React.FC = () => {
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                 Leadeship Summit <img className="inline h-10" src='Lightning.png'/>
+                 Leadeship Summit <img className="inline h-10" src='leader.png'/>
                 </h4>
                 <p className="text-white-500 mb-3">
                 The Leadership Summit is a transformative event for aspiring leaders, providing rare access to industry experts and influencers for personal and professional growth through hands-on experience and valuable insights. A must-attend opportunity.
@@ -167,7 +167,7 @@ const Timeline: React.FC = () => {
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  MentorXWorkshop <img className="inline h-10" src='Lightning.png'/>
+                  MentorXWorkshop <img className="inline h-10" src='workshop.png'/>
                 </h4>
                 <p className="text-white-500 mb-3">
                 MentorXWorkshop is something something something...
@@ -181,7 +181,21 @@ const Timeline: React.FC = () => {
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  Some online event <img className="inline h-10" src='Lightning.png'/>
+                  Visual Voyage <img className="inline h-10" src='visual_voyage.png'/>
+                </h4> 
+                <p className="text-white-500 mb-3">
+                Some online event description
+                </p>
+              </div>
+            </li>
+            <li>
+              <div className="flex flex-start items-center pt-2">
+                <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
+                <p className="text-white-500 text-sm">25.11.2021</p>
+              </div>
+              <div className="mt-0.5 ml-4 pb-5">
+                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
+                  Visual Voyage AI <img className="inline h-10" src='visual_voyage_ai.png'/>
                 </h4>
                 <p className="text-white-500 mb-3">
                 Some online event description
