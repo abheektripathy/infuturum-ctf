@@ -40,8 +40,15 @@ const Timeline: React.FC = () => {
       </div>
     
 
-      <div className="w-screen h-screen bg-black">
+      <div className="relative h-screen w-screen bg-black">
         <br></br>
+        <img
+    src="/ring.png"
+    // autoPlay
+    // muted
+    // loop
+    className="absolute h-full w-full object-cover opacity-20"
+  />
 
         <h1
           className="text-white text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold font-mono text-center mb-10 ml-5 mr-5"
@@ -88,9 +95,10 @@ const Timeline: React.FC = () => {
               </div>
               <div className="mt-0.5 ml-4 mb-6">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  fishHunt
+                  fishHunt <img className="inline h-10" src='fish.png'/>
                 </h4>
                 <p className="text-white-600 mb-3">
+                
                 The Coding Treasure Hunt challenges participants to solve coding puzzles and decipher codes to find the hidden treasure, combining adventure and problem-solving in a thrilling competition.
                 </p>
               </div>
@@ -102,7 +110,7 @@ const Timeline: React.FC = () => {
               </div>
               <div className="mt-0.5 ml-4 mb-6">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  Resem
+                  Resem <img className="inline h-10" src='book.png'/>
                 </h4>
                 <p className="text-white-500 mb-3">
                 A Research based Hackathon by ACM is a premier event for researchers, providing a platform to showcase innovative ideas, network, and compete for prizes by presenting a condensed research paper. An opportunity to make a lasting impact in this field.
@@ -117,7 +125,7 @@ const Timeline: React.FC = () => {
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                Breakout Rooms
+                Breakout Rooms <img className="inline h-10" src='whiteboard.png'/>
                 </h4>
                 <p className="text-white-500 mb-3">
                 Breakout Rooms were designed with the philosophy that the best way to overcome a challenge is to solve it. Participants form teams and tackle a task, writing down their ideas and opinions on a whiteboard, using their creativity to find innovative solutions.
@@ -131,7 +139,7 @@ const Timeline: React.FC = () => {
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  Movie Night
+                  Movie Night <img className="inline h-10" src='cinema.png'/>
                 </h4>
                 <p className="text-white-500 mb-3">
                 Movie Night is the perfect way to end a three-day fest with a fun and entertaining experience. The night will feature a screening of a thrilling sci-fi movie, providing a delightful and amusing ending to the fest.
@@ -145,7 +153,7 @@ const Timeline: React.FC = () => {
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                 Leadeship Summit
+                 Leadeship Summit <img className="inline h-10" src='Lightning.png'/>
                 </h4>
                 <p className="text-white-500 mb-3">
                 The Leadership Summit is a transformative event for aspiring leaders, providing rare access to industry experts and influencers for personal and professional growth through hands-on experience and valuable insights. A must-attend opportunity.
@@ -159,7 +167,7 @@ const Timeline: React.FC = () => {
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  MentorXWorkshop
+                  MentorXWorkshop <img className="inline h-10" src='Lightning.png'/>
                 </h4>
                 <p className="text-white-500 mb-3">
                 MentorXWorkshop is something something something...
@@ -173,10 +181,10 @@ const Timeline: React.FC = () => {
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  Some online event
+                  Some online event <img className="inline h-10" src='Lightning.png'/>
                 </h4>
                 <p className="text-white-500 mb-3">
-                Some onlive event description
+                Some online event description
                 </p>
               </div>
             </li>
