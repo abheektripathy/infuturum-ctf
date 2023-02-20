@@ -206,6 +206,12 @@ const Timeline: React.FC = () => {
     <img src="/black_background.png" className="rounded-box h-20" />
   </div> 
   <div className="carousel-item content-center ">
+    <img src="/black_background.png" className="rounded-box h-20" />
+  </div>
+  <div className="carousel-item content-center ">
+    <img src="/black_background.png" className="rounded-box h-20" />
+  </div>
+  <div className="carousel-item content-center ">
     <img src="/mentorx.png" className="rounded-box h-20" />
   </div> 
   <div className="carousel-item">
@@ -242,10 +248,10 @@ const Timeline: React.FC = () => {
         <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right">
         Get in touch with our team for any assistance and inquiries.
         </h6>
-        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Ishan (Event management head)</b>: <a href="tel:+919821184504">+91 98211 84504</a></h6>
-        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Abhimanyu (Treasurer)</b>: <a href="tel:+919729245712">+91 97292 45712</a></h6>
-        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Arjun (PR and Outreach head)</b>: <a href="tel:+917355619956">+91 73556 19956</a></h6>
-        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" >Mail us: <a href = "mailto: acm@bennett.something">acm@bennett.edu.in</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Ishan (Event management head)</b>: <a href="tel:+919821184504"><br/>+91 98211 84504</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Abhimanyu (Treasurer)</b>: <a href="tel:+919729245712"><br/>+91 97292 45712</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Arjun (PR and Outreach head)</b>: <a href="tel:+917355619956"><br/>+91 73556 19956</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" >Mail us: <a href = "mailto: acm@bennett.something"><br/>acm@bennett.edu.in</a></h6>
         <br></br>
         <br></br>
 
