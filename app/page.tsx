@@ -19,9 +19,9 @@ export default function Home() {
   </div>
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1">
-      <li><a href ="/about "className="font-mono">About</a></li>
+      <li><a href ="/about "className="font-mono text-white">About</a></li>
 
-      <li><a href = "https://tally.so/r/wQo6Pp" className="font-mono">Register</a></li>
+      <li><a href = "https://tally.so/r/wQo6Pp" className="font-mono text-white">Register</a></li>
     </ul>
   </div>
 </div>
@@ -43,12 +43,7 @@ export default function Home() {
         WebkitTextFillColor: 'transparent',
       }}>infuturum.acm</h1>
     
-    <h1 className="text-white text-xs xl:text-lg md:text-xl  font-mono text-center " >     Embark on a journey to the future with Infuturum  </h1>
-    <h1 className="text-white text-xs xl:text-lg md:text-xl font-mono text-center " >    exploring the latest in technology, learning.</h1>
-    <h2 className="text-white xl:text-lg md:text-xl font-mono text-center " ></h2>
-    <div className="flex items-center justify-center mt-10">
-  
-</div>
+    <h1 className="text-white text-xs xl:text-lg md:text-xl  font-mono text-center " >     LEAP INTO THE FUTURE  </h1>
     </li>
   </div>
 </div>

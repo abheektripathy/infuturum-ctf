@@ -11,7 +11,7 @@ const Timeline: React.FC = () => {
         <div className="flex-1">
           <a
             href="/"
-            className="text-white text-xl md:text-xl lg:text-xl xl:text-xl font-bold font-poppins text-center ml-5"
+            className="font-mono text-white text-xl md:text-xl lg:text-xl xl:text-xl font-bold font-poppins text-center ml-5"
             style={{
               background: 'linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))',
               backgroundClip: "text",
@@ -25,13 +25,13 @@ const Timeline: React.FC = () => {
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a href="/about " className="font-mono">
+              <a href="/about " className="font-mono text-white">
                 About
               </a>
             </li>
 
             <li>
-              <a href="https://tally.so/r/wQo6Pp" className="font-mono">
+              <a href="https://tally.so/r/wQo6Pp" className="font-mono text-white">
                 Register
               </a>
             </li>
@@ -44,14 +44,11 @@ const Timeline: React.FC = () => {
         <br></br>
         <img
     src="/ring.png"
-    // autoPlay
-    // muted
-    // loop
-    className="absolute h-full w-full object-cover opacity-20"
+    className="absolute h-full w-full object-cover opacity-50"
   />
 
         <h1
-          className="text-white text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold font-mono text-center mb-10 ml-5 mr-5"
+          className="font-mono text-white text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold font-mono text-center mb-10 ml-5 mr-5"
           style={{
               background: 'linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))',
             backgroundClip: "text",
@@ -62,7 +59,7 @@ const Timeline: React.FC = () => {
           into the future.
         </h1>
 
-        <p className="text-white-600 mt-2 ml-10 mb-6 mr-10 text-center">
+        <p className="font-mono text-white mt-2 ml-10 mb-6 mr-10 text-center">
           Get ready for INFUTURUM, a celebratory extravaganza that marks the
           75th anniversary of ACM BU! Get ready for a scintillating journey that
           is sure to captivate your mind and leave an indelible impression.
@@ -76,7 +73,7 @@ const Timeline: React.FC = () => {
         <br></br>
         <br></br>
         <h1
-          className="text-white text-2xl md:text-3xl lg:text-3xl xl:text-3xl font-bold font-mono text-left mb-1 ml-10 mr-5"
+          className="font-mono text-white text-2xl md:text-3xl lg:text-3xl xl:text-3xl font-bold font-mono text-left mb-1 ml-10 mr-5"
           style={{
             background: 'linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))',
             backgroundClip: "text",
@@ -91,29 +88,29 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-3">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="text-white-500 text-sm">01.07.2021</p>
+                <p className="font-mono text-white text-sm">24.02.23 - 26.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 mb-6">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  fishHunt <img className="inline h-10" src='fish.png'/>
+                  Fishunt <img className="inline h-10" src='fish.png'/>
                 </h4>
-                <p className="text-white-600 mb-3">
+                <p className="font-mono text-white mb-3">
                 
-                The Coding Treasure Hunt challenges participants to solve coding puzzles and decipher codes to find the hidden treasure, combining adventure and problem-solving in a thrilling competition.
+                The Coding Treasure Hunt challenges participants to solve puzzles and decipher codes to find the hidden treasure, combining adventure and problem-solving in a thrilling competition.
                 </p>
               </div>
             </li>
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="text-white-500 text-sm">13.09.2021</p>
+                <p className="font-mono text-white text-sm">24.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 mb-6">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
                   Resem <img className="inline h-10" src='book.png'/>
                 </h4>
-                <p className="text-white-500 mb-3">
-                A Research based Hackathon by ACM is a premier event for researchers, providing a platform to showcase innovative ideas, network, and compete for prizes by presenting a condensed research paper. An opportunity to make a lasting impact in this field.
+                <p className="font-mono text-white mb-3">
+                A <b>Research based Hackathon</b> by ACM is a premier event for all, providing a platform to showcase innovative ideas, network, and compete for prizes by presenting a condensed research paper. An opportunity to make a lasting impact in this field.
                 </p>
               </div>
             </li>
@@ -121,110 +118,104 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="text-white-500 text-sm">25.11.2021</p>
+                <p className="font-mono text-white text-sm">24.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
                 Breakout Rooms <img className="inline h-10" src='whiteboard.png'/>
                 </h4>
-                <p className="text-white-500 mb-3">
-                Breakout Rooms were designed with the philosophy that the best way to overcome a challenge is to solve it. Participants form teams and tackle a task, writing down their ideas and opinions on a whiteboard, using their creativity to find innovative solutions.
+                <p className="font-mono text-white mb-3">
+                The first ever inter-chapter/club/society event where participants need to form teams and tackle a task, writing down their ideas and opinions on a whiteboard, using their creativity to find innovative solutions.
                 </p>
               </div>
             </li>
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="text-white-500 text-sm">25.11.2021</p>
+                <p className="font-mono text-white text-sm">24.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  Movie Night <img className="inline h-10" src='cinema.png'/>
+                  Raw Reality <img className="inline h-10" src='cinema.png'/>
                 </h4>
-                <p className="text-white-500 mb-3">
-                Movie Night is the perfect way to end a three-day fest with a fun and entertaining experience. The night will feature a screening of a thrilling sci-fi movie, providing a delightful and amusing ending to the fest.
+                <p className="font-mono text-white mb-3">
+                Raw Reality is the perfect way to end a three-day fest with a fun and entertaining experience. The night will feature a screening of a thrilling sci-fi movie, providing a delightful and amusing ending to the fest.
                 </p>
               </div>
             </li>
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="text-white-500 text-sm">25.11.2021</p>
+                <p className="font-mono text-white text-sm">24.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                 Leadeship Summit <img className="inline h-10" src='leader.png'/>
+                 Leadership Summit <img className="inline h-10" src='leader.png'/>
                 </h4>
-                <p className="text-white-500 mb-3">
-                The Leadership Summit is a transformative event for aspiring leaders, providing rare access to industry experts and influencers for personal and professional growth through hands-on experience and valuable insights. A must-attend opportunity.
+                <p className="font-mono text-white mb-3">
+                The Leadership Summit is a transformative event for aspiring leaders, providing rare access to industry experts, start-up founders and influencers for personal and professional growth through hands-on experience and valuable insights. A must-attend opportunity.
                 </p>
               </div>
             </li>
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="text-white-500 text-sm">prolly 25.11.2021</p>
-              </div>
-              <div className="mt-0.5 ml-4 pb-5">
-                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  MentorXWorkshop <img className="inline h-10" src='workshop.png'/>
-                </h4>
-                <p className="text-white-500 mb-3">
-                MentorXWorkshop is something something something...
-                </p>
-              </div>
-            </li>
-            <li>
-              <div className="flex flex-start items-center pt-2">
-                <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="text-white-500 text-sm">25.11.2021</p>
+                <p className="font-mono text-white text-sm">24.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
                   Visual Voyage <img className="inline h-10" src='visual_voyage.png'/>
                 </h4> 
-                <p className="text-white-500 mb-3">
-                Some online event description
+                <p className="font-mono text-white mb-3">
+                Join ACM-BU's 'Visual Voyage' challenge and create an innovative ad highlighting a product's unique selling proposition and appeal to its target audience. Sign up now for your chance to shine!
                 </p>
               </div>
             </li>
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="text-white-500 text-sm">25.11.2021</p>
+                <p className="font-mono text-white text-sm">24.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  Visual Voyage AI <img className="inline h-10" src='visual_voyage_ai.png'/>
+                  Visual Voyage AI <img className="inline h-7" src='visual_voyage_ai.png'/>
                 </h4>
-                <p className="text-white-500 mb-3">
-                Some online event description
+                <p className="font-mono text-white mb-3">
+                A creative event where you'll use mid-journey to generate an attractive image using your imagination. Create a unique prompt to generate images and win a cash prize and a feature on ACM's official Instagram handle.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div className="flex flex-start items-center pt-2">
+                <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
+                <p className="font-mono text-white text-sm">24.02.23</p>
+              </div>
+              <div className="mt-0.5 ml-4 pb-5">
+                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
+                  MentorXWorkshop <img className="inline h-10" src='workshop.png'/>
+                </h4>
+                <p className="font-mono text-white mb-3">
+                A workshop where experts will introduce their startup and they will share their experiences and insights. The experts of MentorX will provide you with the tools, knowledge, and resources you need to take your ideas to the next level and turn your vision into a successful reality.
                 </p>
               </div>
             </li>
           </ol>
           <div className="content-center justify-center place-content-center mx-10 my-10">
-          <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-black rounded-box place-content-center">
+          <div className="carousel carousel-center max-w-full p-4 space-x-4 bg-black rounded-box place-content-left max-h-fit">
   <div className="carousel-item content-center ">
-    <img src="/mentorx.png" className="rounded-box place-content-center" />
-  </div> 
-  {/* <div className="carousel-item">
-    <img src="/mentorx.png" className="rounded-box" />
-  </div>  */}
-  <div className="carousel-item">
-    <img src="/mentorx.png" className="rounded-box" />
+    <img src="/voiceflow.png" className="rounded-box h-20" />
   </div> 
   <div className="carousel-item">
-    <img src="/mentorx.png" className="rounded-box" />
+    <img src="/mentorx.png" className="rounded-box h-20" />
   </div> 
   <div className="carousel-item">
-    <img src="/mentorx.png" className="rounded-box"/>
+    <img src="/rev-up.png" className="rounded-box h-20" />
   </div> 
   <div className="carousel-item">
-    <img src="/favicon.ico" className="rounded-box" />
+    <img src="/hoverRobotix.png" className="rounded-box h-20" />
   </div> 
   <div className="carousel-item">
-    <img src="/favicon.ico" className="rounded-box" />
+    <img src="/unstop.png" className="rounded-box h-20"/>
   </div>
 </div>
 </div>
@@ -232,7 +223,7 @@ const Timeline: React.FC = () => {
         </div>
   <div className="bg-black">
         <h1
-          className="text-white text-2xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-poppins text-right ml-5 px-5"
+          className="font-mono text-white text-2xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-poppins text-right ml-5 px-5"
           style={{
             background: 'linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))',
             backgroundClip: "text",
@@ -242,13 +233,13 @@ const Timeline: React.FC = () => {
         >
          Contact Us
         </h1>
-        <h6 className="text-white-400 mt-2 ml-10 mb-6 mr-5 text-right">
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right">
         Get in touch with our team for any assistance and inquiries.
         </h6>
-        <h6 className="text-white-400 mt-2 ml-10 mb-6 mr-5 text-right" ><b>Ishan (Event management head)</b>: <a href="tel:+919821184504">+91 98211 84504</a></h6>
-        <h6 className="text-white-400 mt-2 ml-10 mb-6 mr-5 text-right" ><b>Abhimanyu (Treasurer)</b>: <a href="tel:+919729245712">+91 97292 45712</a></h6>
-        <h6 className="text-white-400 mt-2 ml-10 mb-6 mr-5 text-right" ><b>Arjun (PR and Outreach head)</b>: <a href="tel:+917355619956">+91 73556 19956</a></h6>
-        <h6 className="text-white-400 mt-2 ml-10 mb-6 mr-5 text-right" >Mail us: <a href = "mailto: acm@bennett.something">acm@bennett.edu.in</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Ishan Mohan(Events and logistics head)</b>: <a href="tel:+919821184504"><br/>+91 98211 84504</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Abhimanyu Dhull(Treasurer)</b>: <a href="tel:+919729245712"><br/>+91 97292 45712</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Arjun Singh Parihar(PR and Outreach head)</b>: <a href="tel:+917355619956"><br/>+91 73556 19956</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Mail us:</b> <a href = "mailto: acm@bennett.something"><br/>acm@bennett.edu.in</a></h6>
         <br></br>
         <br></br>
 
