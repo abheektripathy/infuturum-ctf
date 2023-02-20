@@ -88,11 +88,11 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-3">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="font-mono text-white text-sm">01.07.2021</p>
+                <p className="font-mono text-white text-sm">24.02.23 - 26.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 mb-6">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  fishHunt <img className="inline h-10" src='fish.png'/>
+                  Fishunt <img className="inline h-10" src='fish.png'/>
                 </h4>
                 <p className="font-mono text-white mb-3">
                 
@@ -103,7 +103,7 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="font-mono text-white text-sm">13.09.2021</p>
+                <p className="font-mono text-white text-sm">24.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 mb-6">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
@@ -118,63 +118,49 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="font-mono text-white text-sm">25.11.2021</p>
+                <p className="font-mono text-white text-sm">24.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
                 Breakout Rooms <img className="inline h-10" src='whiteboard.png'/>
                 </h4>
                 <p className="font-mono text-white mb-3">
-                Breakout Rooms were designed with the philosophy that the best way to overcome a challenge is to solve it. Participants form teams and tackle a task, writing down their ideas and opinions on a whiteboard, using their creativity to find innovative solutions.
+                The first ever inter-chapter/club/society event where participants need to form teams and tackle a task, writing down their ideas and opinions on a whiteboard, using their creativity to find innovative solutions.
                 </p>
               </div>
             </li>
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="font-mono text-white text-sm">25.11.2021</p>
+                <p className="font-mono text-white text-sm">24.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  Movie Night <img className="inline h-10" src='cinema.png'/>
+                  Raw Reality <img className="inline h-10" src='cinema.png'/>
                 </h4>
                 <p className="font-mono text-white mb-3">
-                Movie Night is the perfect way to end a three-day fest with a fun and entertaining experience. The night will feature a screening of a thrilling sci-fi movie, providing a delightful and amusing ending to the fest.
+                Raw Reality is the perfect way to end a three-day fest with a fun and entertaining experience. The night will feature a screening of a thrilling sci-fi movie, providing a delightful and amusing ending to the fest.
                 </p>
               </div>
             </li>
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="font-mono text-white text-sm">25.11.2021</p>
+                <p className="font-mono text-white text-sm">24.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                 Leadeship Summit <img className="inline h-10" src='leader.png'/>
+                 Leadership Summit <img className="inline h-10" src='leader.png'/>
                 </h4>
                 <p className="font-mono text-white mb-3">
-                The Leadership Summit is a transformative event for aspiring leaders, providing rare access to industry experts and influencers for personal and professional growth through hands-on experience and valuable insights. A must-attend opportunity.
+                The Leadership Summit is a transformative event for aspiring leaders, providing rare access to industry experts, start-up founders and influencers for personal and professional growth through hands-on experience and valuable insights. A must-attend opportunity.
                 </p>
               </div>
             </li>
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="font-mono text-white text-sm">prolly 25.11.2021</p>
-              </div>
-              <div className="mt-0.5 ml-4 pb-5">
-                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  MentorXWorkshop <img className="inline h-10" src='workshop.png'/>
-                </h4>
-                <p className="font-mono text-white mb-3">
-                MentorXWorkshop is something something something...
-                </p>
-              </div>
-            </li>
-            <li>
-              <div className="flex flex-start items-center pt-2">
-                <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="font-mono text-white text-sm">25.11.2021</p>
+                <p className="font-mono text-white text-sm">24.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
@@ -188,14 +174,28 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="font-mono text-white text-sm">25.11.2021</p>
+                <p className="font-mono text-white text-sm">24.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  Visual Voyage AI <img className="inline h-10" src='visual_voyage_ai.png'/>
+                  Visual Voyage AI <img className="inline h-7" src='visual_voyage_ai.png'/>
                 </h4>
                 <p className="font-mono text-white mb-3">
                 Some online event description
+                </p>
+              </div>
+            </li>
+            <li>
+              <div className="flex flex-start items-center pt-2">
+                <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
+                <p className="font-mono text-white text-sm">24.02.23</p>
+              </div>
+              <div className="mt-0.5 ml-4 pb-5">
+                <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
+                  MentorXWorkshop <img className="inline h-10" src='workshop.png'/>
+                </h4>
+                <p className="font-mono text-white mb-3">
+                A workshop where experts will introduce their startup and they will share their experiences and insights. The experts of MentorX will provide you with the tools, knowledge, and resources you need to take your ideas to the next level and turn your vision into a successful reality.
                 </p>
               </div>
             </li>
@@ -209,13 +209,13 @@ const Timeline: React.FC = () => {
     <img src="/mentorx.png" className="rounded-box h-20" />
   </div> 
   <div className="carousel-item">
-    <img src="/unstop.png" className="rounded-box h-20" />
+    <img src="/rev-up.png" className="rounded-box h-20" />
   </div> 
   <div className="carousel-item">
     <img src="/hoverRobotix.png" className="rounded-box h-20" />
   </div> 
   <div className="carousel-item">
-    <img src="/rev-up.png" className="rounded-box h-20"/>
+    <img src="/unstop.png" className="rounded-box h-20"/>
   </div>
 </div>
 </div>
