@@ -167,7 +167,7 @@ const Timeline: React.FC = () => {
                   Visual Voyage <img className="inline h-10" src='visual_voyage.png'/>
                 </h4> 
                 <p className="font-mono text-white mb-3">
-                Some online event description
+                Join ACM-BU's 'Visual Voyage' challenge and create an innovative ad highlighting a product's unique selling proposition and appeal to its target audience. Sign up now for your chance to shine!
                 </p>
               </div>
             </li>
@@ -181,7 +181,7 @@ const Timeline: React.FC = () => {
                   Visual Voyage AI <img className="inline h-7" src='visual_voyage_ai.png'/>
                 </h4>
                 <p className="font-mono text-white mb-3">
-                Some online event description
+                A creative event where you'll use mid-journey to generate an attractive image using your imagination. Create a unique prompt to generate images and win a cash prize and a feature on ACM's official Instagram handle.
                 </p>
               </div>
             </li>
