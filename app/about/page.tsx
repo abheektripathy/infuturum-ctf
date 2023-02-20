@@ -11,7 +11,7 @@ const Timeline: React.FC = () => {
         <div className="flex-1">
           <a
             href="/"
-            className="text-white text-xl md:text-xl lg:text-xl xl:text-xl font-bold font-poppins text-center ml-5"
+            className="font-mono text-white text-xl md:text-xl lg:text-xl xl:text-xl font-bold font-poppins text-center ml-5"
             style={{
               background: 'linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))',
               backgroundClip: "text",
@@ -48,7 +48,7 @@ const Timeline: React.FC = () => {
   />
 
         <h1
-          className="text-white text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold font-mono text-center mb-10 ml-5 mr-5"
+          className="font-mono text-white text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold font-mono text-center mb-10 ml-5 mr-5"
           style={{
               background: 'linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))',
             backgroundClip: "text",
@@ -59,7 +59,7 @@ const Timeline: React.FC = () => {
           into the future.
         </h1>
 
-        <p className="text-white-600 mt-2 ml-10 mb-6 mr-10 text-center">
+        <p className="font-mono text-white mt-2 ml-10 mb-6 mr-10 text-center">
           Get ready for INFUTURUM, a celebratory extravaganza that marks the
           75th anniversary of ACM BU! Get ready for a scintillating journey that
           is sure to captivate your mind and leave an indelible impression.
@@ -73,7 +73,7 @@ const Timeline: React.FC = () => {
         <br></br>
         <br></br>
         <h1
-          className="text-white text-2xl md:text-3xl lg:text-3xl xl:text-3xl font-bold font-mono text-left mb-1 ml-10 mr-5"
+          className="font-mono text-white text-2xl md:text-3xl lg:text-3xl xl:text-3xl font-bold font-mono text-left mb-1 ml-10 mr-5"
           style={{
             background: 'linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))',
             backgroundClip: "text",
@@ -88,13 +88,13 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-3">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="text-white-500 text-sm">01.07.2021</p>
+                <p className="font-mono text-white text-sm">01.07.2021</p>
               </div>
               <div className="mt-0.5 ml-4 mb-6">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
                   fishHunt <img className="inline h-10" src='fish.png'/>
                 </h4>
-                <p className="text-white-600 mb-3">
+                <p className="font-mono text-white mb-3">
                 
                 The Coding Treasure Hunt challenges participants to solve coding puzzles and decipher codes to find the hidden treasure, combining adventure and problem-solving in a thrilling competition.
                 </p>
@@ -103,13 +103,13 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="text-white-500 text-sm">13.09.2021</p>
+                <p className="font-mono text-white text-sm">13.09.2021</p>
               </div>
               <div className="mt-0.5 ml-4 mb-6">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
                   Resem <img className="inline h-10" src='book.png'/>
                 </h4>
-                <p className="text-white-500 mb-3">
+                <p className="font-mono text-white mb-3">
                 A Research based Hackathon by ACM is a premier event for researchers, providing a platform to showcase innovative ideas, network, and compete for prizes by presenting a condensed research paper. An opportunity to make a lasting impact in this field.
                 </p>
               </div>
@@ -118,13 +118,13 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="text-white-500 text-sm">25.11.2021</p>
+                <p className="font-mono text-white text-sm">25.11.2021</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
                 Breakout Rooms <img className="inline h-10" src='whiteboard.png'/>
                 </h4>
-                <p className="text-white-500 mb-3">
+                <p className="font-mono text-white mb-3">
                 Breakout Rooms were designed with the philosophy that the best way to overcome a challenge is to solve it. Participants form teams and tackle a task, writing down their ideas and opinions on a whiteboard, using their creativity to find innovative solutions.
                 </p>
               </div>
@@ -132,13 +132,13 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="text-white-500 text-sm">25.11.2021</p>
+                <p className="font-mono text-white text-sm">25.11.2021</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
                   Movie Night <img className="inline h-10" src='cinema.png'/>
                 </h4>
-                <p className="text-white-500 mb-3">
+                <p className="font-mono text-white mb-3">
                 Movie Night is the perfect way to end a three-day fest with a fun and entertaining experience. The night will feature a screening of a thrilling sci-fi movie, providing a delightful and amusing ending to the fest.
                 </p>
               </div>
@@ -146,13 +146,13 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="text-white-500 text-sm">25.11.2021</p>
+                <p className="font-mono text-white text-sm">25.11.2021</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
                  Leadeship Summit <img className="inline h-10" src='leader.png'/>
                 </h4>
-                <p className="text-white-500 mb-3">
+                <p className="font-mono text-white mb-3">
                 The Leadership Summit is a transformative event for aspiring leaders, providing rare access to industry experts and influencers for personal and professional growth through hands-on experience and valuable insights. A must-attend opportunity.
                 </p>
               </div>
@@ -160,13 +160,13 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="text-white-500 text-sm">prolly 25.11.2021</p>
+                <p className="font-mono text-white text-sm">prolly 25.11.2021</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
                   MentorXWorkshop <img className="inline h-10" src='workshop.png'/>
                 </h4>
-                <p className="text-white-500 mb-3">
+                <p className="font-mono text-white mb-3">
                 MentorXWorkshop is something something something...
                 </p>
               </div>
@@ -174,13 +174,13 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="text-white-500 text-sm">25.11.2021</p>
+                <p className="font-mono text-white text-sm">25.11.2021</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
                   Visual Voyage <img className="inline h-10" src='visual_voyage.png'/>
                 </h4> 
-                <p className="text-white-500 mb-3">
+                <p className="font-mono text-white mb-3">
                 Some online event description
                 </p>
               </div>
@@ -188,13 +188,13 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="text-white-500 text-sm">25.11.2021</p>
+                <p className="font-mono text-white text-sm">25.11.2021</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
                   Visual Voyage AI <img className="inline h-10" src='visual_voyage_ai.png'/>
                 </h4>
-                <p className="text-white-500 mb-3">
+                <p className="font-mono text-white mb-3">
                 Some online event description
                 </p>
               </div>
@@ -229,7 +229,7 @@ const Timeline: React.FC = () => {
         </div>
   <div className="bg-black">
         <h1
-          className="text-white text-2xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-poppins text-right ml-5 px-5"
+          className="font-mono text-white text-2xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-poppins text-right ml-5 px-5"
           style={{
             background: 'linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))',
             backgroundClip: "text",
@@ -239,13 +239,13 @@ const Timeline: React.FC = () => {
         >
          Contact Us
         </h1>
-        <h6 className="text-white-400 mt-2 ml-10 mb-6 mr-5 text-right">
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right">
         Get in touch with our team for any assistance and inquiries.
         </h6>
-        <h6 className="text-white-400 mt-2 ml-10 mb-6 mr-5 text-right" ><b>Ishan (Event management head)</b>: <a href="tel:+919821184504">+91 98211 84504</a></h6>
-        <h6 className="text-white-400 mt-2 ml-10 mb-6 mr-5 text-right" ><b>Abhimanyu (Treasurer)</b>: <a href="tel:+919729245712">+91 97292 45712</a></h6>
-        <h6 className="text-white-400 mt-2 ml-10 mb-6 mr-5 text-right" ><b>Arjun (PR and Outreach head)</b>: <a href="tel:+917355619956">+91 73556 19956</a></h6>
-        <h6 className="text-white-400 mt-2 ml-10 mb-6 mr-5 text-right" >Mail us: <a href = "mailto: acm@bennett.something">acm@bennett.edu.in</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Ishan (Event management head)</b>: <a href="tel:+919821184504">+91 98211 84504</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Abhimanyu (Treasurer)</b>: <a href="tel:+919729245712">+91 97292 45712</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Arjun (PR and Outreach head)</b>: <a href="tel:+917355619956">+91 73556 19956</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" >Mail us: <a href = "mailto: acm@bennett.something">acm@bennett.edu.in</a></h6>
         <br></br>
         <br></br>
 
