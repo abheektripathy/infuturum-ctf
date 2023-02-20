@@ -44,7 +44,7 @@ const Timeline: React.FC = () => {
         <br></br>
         <img
     src="/ring.png"
-    className="absolute h-full w-full object-cover opacity-20"
+    className="absolute h-full w-full object-cover opacity-50"
   />
 
         <h1
