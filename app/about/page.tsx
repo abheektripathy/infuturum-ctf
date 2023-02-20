@@ -204,27 +204,21 @@ const Timeline: React.FC = () => {
             </li>
           </ol>
           <div className="content-center justify-center place-content-center mx-10 my-10">
-          <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-black rounded-box place-content-center">
+          <div className="carousel carousel-center max-w-full p-4 space-x-4 bg-black rounded-box place-content-center max-h-fit">
   <div className="carousel-item content-center ">
-    <img src="/mentorx.png" className="rounded-box place-content-center" />
-  </div> 
-  {/* <div className="carousel-item">
-    <img src="/mentorx.png" className="rounded-box" />
-  </div>  */}
-  <div className="carousel-item">
-    <img src="/mentorx.png" className="rounded-box" />
+    <img src="/mentorx.png" className="rounded-box h-20" />
   </div> 
   <div className="carousel-item">
-    <img src="/mentorx.png" className="rounded-box" />
+    <img src="/unstop.png" className="rounded-box h-20" />
   </div> 
   <div className="carousel-item">
-    <img src="/mentorx.png" className="rounded-box"/>
+    <img src="/voiceflow.png" className="rounded-box h-20" />
   </div> 
   <div className="carousel-item">
-    <img src="/favicon.ico" className="rounded-box" />
+    <img src="/hoverRobotix.png" className="rounded-box h-20" />
   </div> 
   <div className="carousel-item">
-    <img src="/favicon.ico" className="rounded-box" />
+    <img src="/rev-up.png" className="rounded-box h-20"/>
   </div>
 </div>
 </div>
