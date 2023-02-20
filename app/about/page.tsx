@@ -40,11 +40,11 @@ const Timeline: React.FC = () => {
       </div>
     
 
-      <div className="relative h-screen w-screen bg-black">
+      <div className="relative h-full w-full bg-black">
         <br></br>
         <img
     src="/ring.png"
-    className="absolute h-full w-full object-cover opacity-20"
+    className="absolute h-100% w-100% object-cover opacity-20"
   />
 
         <h1
