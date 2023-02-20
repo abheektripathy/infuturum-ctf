@@ -207,6 +207,12 @@ const Timeline: React.FC = () => {
   </div> 
   <div className="carousel-item content-center ">
     <img src="/black_background.png" className="rounded-box h-20" />
+  </div> 
+  <div className="carousel-item content-center ">
+    <img src="/black_background.png" className="rounded-box h-20" />
+  </div> 
+  <div className="carousel-item content-center ">
+    <img src="/black_background.png" className="rounded-box h-20" />
   </div>
   <div className="carousel-item content-center ">
     <img src="/black_background.png" className="rounded-box h-20" />
