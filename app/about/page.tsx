@@ -201,33 +201,15 @@ const Timeline: React.FC = () => {
             </li>
           </ol>
           <div className="content-center justify-center place-content-center mx-10 my-10">
-          <div className="carousel carousel-center max-w-full p-4 space-x-4 bg-black rounded-box place-content-center max-h-fit">
-          {/* <div className="carousel-item content-center ">
-    <img src="/black_background.png" className="rounded-box h-20" />
-  </div>
+          <div className="carousel carousel-center max-w-full p-4 space-x-4 bg-black rounded-box place-content-left max-h-fit">
   <div className="carousel-item content-center ">
-    <img src="/black_background.png" className="rounded-box h-20" />
-  </div>
-  <div className="carousel-item content-center ">
-    <img src="/black_background.png" className="rounded-box h-20" />
+    <img src="/voiceflow.png" className="rounded-box h-20" />
   </div> 
-  <div className="carousel-item content-center ">
-    <img src="/black_background.png" className="rounded-box h-20" />
-  </div> 
-  <div className="carousel-item content-center ">
-    <img src="/black_background.png" className="rounded-box h-20" />
-  </div>
-  <div className="carousel-item content-center ">
-    <img src="/black_background.png" className="rounded-box h-20" />
-  </div> */}
-  <div className="carousel-item content-center ">
+  <div className="carousel-item">
     <img src="/mentorx.png" className="rounded-box h-20" />
   </div> 
   <div className="carousel-item">
     <img src="/unstop.png" className="rounded-box h-20" />
-  </div> 
-  <div className="carousel-item">
-    <img src="/voiceflow.png" className="rounded-box h-20" />
   </div> 
   <div className="carousel-item">
     <img src="/hoverRobotix.png" className="rounded-box h-20" />
@@ -254,9 +236,9 @@ const Timeline: React.FC = () => {
         <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right">
         Get in touch with our team for any assistance and inquiries.
         </h6>
-        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Ishan (Event management head)</b>: <a href="tel:+919821184504"><br/>+91 98211 84504</a></h6>
-        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Abhimanyu (Treasurer)</b>: <a href="tel:+919729245712"><br/>+91 97292 45712</a></h6>
-        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Arjun (PR and Outreach head)</b>: <a href="tel:+917355619956"><br/>+91 73556 19956</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Ishan Mohan(Events and logistics head)</b>: <a href="tel:+919821184504"><br/>+91 98211 84504</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Abhimanyu Dhull(Treasurer)</b>: <a href="tel:+919729245712"><br/>+91 97292 45712</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Arjun Singh Parihar(PR and Outreach head)</b>: <a href="tel:+917355619956"><br/>+91 73556 19956</a></h6>
         <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" >Mail us: <a href = "mailto: acm@bennett.something"><br/>acm@bennett.edu.in</a></h6>
         <br></br>
         <br></br>
