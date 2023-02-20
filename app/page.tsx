@@ -19,9 +19,9 @@ export default function Home() {
   </div>
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1">
-      <li><a href ="/about "className="font-mono">About</a></li>
+      <li><a href ="/about "className="font-mono text-white">About</a></li>
 
-      <li><a href = "https://tally.so/r/wQo6Pp" className="font-mono">Register</a></li>
+      <li><a href = "https://tally.so/r/wQo6Pp" className="font-mono text-white">Register</a></li>
     </ul>
   </div>
 </div>
