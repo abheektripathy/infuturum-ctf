@@ -201,8 +201,8 @@ const Timeline: React.FC = () => {
             </li>
           </ol>
           <div className="content-center justify-center place-content-center mx-10 my-10">
-          <div className="carousel carousel-center max-w-full p-4 space-x-4 bg-black rounded-box place-content-LEFT max-h-fit">
-          <div className="carousel-item content-center ">
+          <div className="carousel carousel-center max-w-full p-4 space-x-4 bg-black rounded-box place-content-center max-h-fit">
+          {/* <div className="carousel-item content-center ">
     <img src="/black_background.png" className="rounded-box h-20" />
   </div>
   <div className="carousel-item content-center ">
@@ -219,7 +219,7 @@ const Timeline: React.FC = () => {
   </div>
   <div className="carousel-item content-center ">
     <img src="/black_background.png" className="rounded-box h-20" />
-  </div>
+  </div> */}
   <div className="carousel-item content-center ">
     <img src="/mentorx.png" className="rounded-box h-20" />
   </div> 
