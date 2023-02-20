@@ -96,7 +96,7 @@ const Timeline: React.FC = () => {
                 </h4>
                 <p className="font-mono text-white mb-3">
                 
-                The Coding Treasure Hunt challenges participants to solve coding puzzles and decipher codes to find the hidden treasure, combining adventure and problem-solving in a thrilling competition.
+                The Coding Treasure Hunt challenges participants to solve puzzles and decipher codes to find the hidden treasure, combining adventure and problem-solving in a thrilling competition.
                 </p>
               </div>
             </li>
@@ -110,7 +110,7 @@ const Timeline: React.FC = () => {
                   Resem <img className="inline h-10" src='book.png'/>
                 </h4>
                 <p className="font-mono text-white mb-3">
-                A Research based Hackathon by ACM is a premier event for researchers, providing a platform to showcase innovative ideas, network, and compete for prizes by presenting a condensed research paper. An opportunity to make a lasting impact in this field.
+                A <b>Research based Hackathon</b> by ACM is a premier event for all, providing a platform to showcase innovative ideas, network, and compete for prizes by presenting a condensed research paper. An opportunity to make a lasting impact in this field.
                 </p>
               </div>
             </li>
@@ -239,7 +239,7 @@ const Timeline: React.FC = () => {
         <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Ishan Mohan(Events and logistics head)</b>: <a href="tel:+919821184504"><br/>+91 98211 84504</a></h6>
         <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Abhimanyu Dhull(Treasurer)</b>: <a href="tel:+919729245712"><br/>+91 97292 45712</a></h6>
         <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Arjun Singh Parihar(PR and Outreach head)</b>: <a href="tel:+917355619956"><br/>+91 73556 19956</a></h6>
-        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" >Mail us: <a href = "mailto: acm@bennett.something"><br/>acm@bennett.edu.in</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Mail us:</b> <a href = "mailto: acm@bennett.something"><br/>acm@bennett.edu.in</a></h6>
         <br></br>
         <br></br>
 
