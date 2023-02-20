@@ -204,7 +204,10 @@ const Timeline: React.FC = () => {
           <div className="carousel carousel-center max-w-full p-4 space-x-4 bg-black rounded-box place-content-center max-h-fit">
           <div className="carousel-item content-center ">
     <img src="/black_background.png" className="rounded-box h-20" />
-  </div> 
+  </div>
+  <div className="carousel-item content-center ">
+    <img src="/black_background.png" className="rounded-box h-20" />
+  </div>
   <div className="carousel-item content-center ">
     <img src="/black_background.png" className="rounded-box h-20" />
   </div> 
