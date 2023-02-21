@@ -40,11 +40,11 @@ const Timeline: React.FC = () => {
       </div>
     
 
-      <div className="relative h-screen w-screen bg-black">
-        <br></br>
+      <div className="relative h-full w-full bg-black">
+        {/* <br></br> */}
         <img
     src="/ring.png"
-    className="absolute h-full w-full object-cover opacity-40"
+    className="absolute h-200 w-200 object-cover opacity-40"
   />
 
         <h1
@@ -60,9 +60,9 @@ const Timeline: React.FC = () => {
         </h1>
 
         <p className="font-mono text-white mt-2 ml-10 mb-6 mr-10 text-center">
-        Get ready for INFUTURUM, a celebratory extravaganza that marks the 75th anniversary of ACM BU! Get ready for a scintillating journey that is sure to captivate your mind and leave an indelible impression. Immerse yourself in an wide ranging mix of interactive events that will challenge you, excite you and reward you like never before. Compete for stunning prizes, and be part of a fest that promises to be like nothing you've ever experienced before. Don't miss this unique opportunity to celebrate in grand style and be a part of INFUTURUM, that will be remembered for years to come!
+        Get ready for INFUTURUM, a celebratory extravaganza that marks the 75th anniversary of ACM BU! Get ready for a scintillating journey that is sure to captivate your mind and leave an indelible impression. Immerse yourself in an wide ranging mix of interactive events that will challenge you, excite you and reward you like never before. Compete for stunning prizes, and be part of a fest that promises to be like nothing you've ever experienced before. Don't miss this unique opportunity to celebrate in grand style and be a part of INFUTURUM, that will be remembered for years to come!
         </p>
-        <br></br>
+        <br ></br>
         <br></br>
         <h1
           className="font-mono text-white text-2xl md:text-3xl lg:text-3xl xl:text-3xl font-bold font-mono text-left mb-1 ml-10 mr-5"
@@ -117,7 +117,7 @@ const Timeline: React.FC = () => {
                 Breakout Rooms <img className="inline h-10" src='whiteboard.png'/>
                 </h4>
                 <p className="font-mono text-white mb-3">
-                The first ever inter-chapter/club/society event where participants need to form teams and tackle a task, writing down their ideas and opinions on a whiteboard, using their creativity to find innovative solutions.
+                The first ever inter-chapter/club/society event where participants need to form teams and tackle a task, writing down their ideas and opinions on a whiteboard, using their creativity to find innovative solutions.
                 </p>
               </div>
             </li>
@@ -173,7 +173,7 @@ const Timeline: React.FC = () => {
                   Visual Voyage AI <img className="inline h-7" src='visual_voyage_ai.png'/>
                 </h4>
                 <p className="font-mono text-white mb-3">
-                A creative event where you'll use mid-journey to generate an attractive image using your imagination. Create a unique prompt to generate images and win a cash prize and a feature on ACM's official Instagram handle.
+                A creative event where you'll use mid-journey to generate an attractive image using your imagination. Create a unique prompt to generate images and win a cash prize and a feature on ACM's official Instagram handle.
                 </p>
               </div>
             </li>
