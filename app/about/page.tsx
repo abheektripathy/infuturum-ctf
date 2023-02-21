@@ -44,7 +44,7 @@ const Timeline: React.FC = () => {
         <br></br>
         <img
     src="/ring.png"
-    className="absolute h-full w-full object-cover opacity-50"
+    className="absolute h-full w-full object-cover opacity-40"
   />
 
         <h1
@@ -60,15 +60,7 @@ const Timeline: React.FC = () => {
         </h1>
 
         <p className="font-mono text-white mt-2 ml-10 mb-6 mr-10 text-center">
-          Get ready for INFUTURUM, a celebratory extravaganza that marks the
-          75th anniversary of ACM BU! Get ready for a scintillating journey that
-          is sure to captivate your mind and leave an indelible impression.
-          Immerse yourself in an eclectic mix of interactive events that will
-          challenge you, excite you and reward you like never before. Compete
-          for stunning prizes, and be part of a celebration that promises to be
-          like nothing you've ever experienced before. Don't miss this unique
-          opportunity to celebrate in grand style and be a part of INFUTURUM, a
-          celebration that will be remembered for years to come!
+        Get ready for INFUTURUM, a celebratory extravaganza that marks the 75th anniversary of ACM BU! Get ready for a scintillating journey that is sure to captivate your mind and leave an indelible impression. Immerse yourself in an wide ranging mix of interactive events that will challenge you, excite you and reward you like never before. Compete for stunning prizes, and be part of a fest that promises to be like nothing you've ever experienced before. Don't miss this unique opportunity to celebrate in grand style and be a part of INFUTURUM, that will be remembered for years to come!
         </p>
         <br></br>
         <br></br>
@@ -88,7 +80,7 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-3">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="font-mono text-white text-sm">24.02.23 - 26.02.23</p>
+                <p className="font-mono text-white text-sm">24.02.23:19:00 - 26.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 mb-6">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
@@ -139,7 +131,7 @@ const Timeline: React.FC = () => {
                   Raw Reality <img className="inline h-10" src='cinema.png'/>
                 </h4>
                 <p className="font-mono text-white mb-3">
-                Raw Reality is the perfect way to end a three-day fest with a fun and entertaining experience. The night will feature a screening of a thrilling sci-fi movie, providing a delightful and amusing ending to the fest.
+                Raw Reality is the perfect entertaining experience. The night will feature a screening of a thrilling sci-fi documentary, providing a delightful and amusing ending to the fest.
                 </p>
               </div>
             </li>
@@ -201,7 +193,7 @@ const Timeline: React.FC = () => {
             </li>
           </ol>
           <div className="content-center justify-center place-content-center mx-10 my-10">
-          <div className="carousel carousel-center max-w-full p-4 space-x-4 bg-black rounded-box place-content-left max-h-fit">
+          <div className="carousel carousel-center max-w-full p-4 space-x-20 bg-black rounded-box place-content-left max-h-fit">
   <div className="carousel-item content-center ">
     <img src="/voiceflow.png" className="rounded-box h-20" />
   </div> 
