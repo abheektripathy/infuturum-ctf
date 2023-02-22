@@ -32,6 +32,7 @@ export default function Home() {
     loop
     muted
     playsInline
+    preload="auto"
     className="absolute h-full w-full object-cover opacity-80"
   />
   
