@@ -27,10 +27,12 @@ export default function Home() {
 </div>
 <div className="relative h-screen w-screen bg-black">
   <video
-    src="/bgeditcomp2.webm"
-    autoPlay
+    src="/bgeditcomp2.mp4"
     muted
+    autoPlay
     loop
+    playsInline
+    preload="auto"
     className="absolute h-full w-full object-cover opacity-80"
   />
   
