@@ -27,10 +27,10 @@ export default function Home() {
 </div>
 <div className="relative h-screen w-screen bg-black">
   <video
-    src="/bgeditcomp2.webm"
+    src="/bgeditcomp2.mp4"
     autoPlay
-    muted
     loop
+    muted
     playsInline
     className="absolute h-full w-full object-cover opacity-80"
   />
