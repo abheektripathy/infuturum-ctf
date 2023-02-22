@@ -28,9 +28,9 @@ export default function Home() {
 <div className="relative h-screen w-screen bg-black">
   <video
     src="/bgeditcomp2.mp4"
+    muted
     autoPlay
     loop
-    muted
     playsInline
     preload="auto"
     className="absolute h-full w-full object-cover opacity-80"
