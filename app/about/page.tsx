@@ -80,7 +80,7 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-3">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="font-mono text-white text-sm">24.02.23:19:00 - 26.02.23</p>
+                <p className="font-mono text-white text-sm">24.02.23 - 26.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 mb-6">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
@@ -90,12 +90,14 @@ const Timeline: React.FC = () => {
                 
                 The Coding Treasure Hunt challenges participants to solve puzzles and decipher codes to find the hidden treasure, combining adventure and problem-solving in a thrilling competition.
                 </p>
+                <p className="font-mono text-white text-sm">Time: Friday 22:00hrs  to  Saturday 23:59hrs</p>
               </div>
             </li>
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="font-mono text-white text-sm">24.02.23</p>
+                <p className="font-mono text-white text-sm">24.02.23 - 25.02.23</p>
+                {/* <p className="font-mono text-white text-sm">22:00</p> */}
               </div>
               <div className="mt-0.5 ml-4 mb-6">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
@@ -104,13 +106,16 @@ const Timeline: React.FC = () => {
                 <p className="font-mono text-white mb-3">
                 A <b>Research based Hackathon</b> by ACM is a premier event for all, providing a platform to showcase innovative ideas, network, and compete for prizes by presenting a condensed research paper. An opportunity to make a lasting impact in this field.
                 </p>
+                {/* <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div> */}
+                <p className="font-mono text-white text-sm">Time: Friday 22:00hrs  to  Saturday 23:59hrs</p>
               </div>
+              
             </li>
             
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="font-mono text-white text-sm">24.02.23</p>
+                {/* <p className="font-mono text-white text-sm">25.02.23</p> */}
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
@@ -124,7 +129,7 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="font-mono text-white text-sm">24.02.23</p>
+                <p className="font-mono text-white text-sm">25.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
@@ -138,7 +143,7 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="font-mono text-white text-sm">24.02.23</p>
+                <p className="font-mono text-white text-sm">26.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
@@ -152,7 +157,7 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="font-mono text-white text-sm">24.02.23</p>
+                <p className="font-mono text-white text-sm">24.02.23 - 26.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
@@ -166,7 +171,7 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="font-mono text-white text-sm">24.02.23</p>
+                <p className="font-mono text-white text-sm">24.02.23 - 26.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
@@ -180,7 +185,7 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="font-mono text-white text-sm">24.02.23</p>
+                <p className="font-mono text-white text-sm">25.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
@@ -215,7 +220,7 @@ const Timeline: React.FC = () => {
         </div>
   <div className="bg-black">
         <h1
-          className="font-mono text-white text-2xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-poppins text-right ml-5 px-5"
+          className="font-mono text-white text-2xl md:text-2xl lg:text-2xl xl:text-3xl font-bold font-poppins text-left ml-5 px-5"
           style={{
             background: 'linear-gradient(to right,rgba(114, 231, 23, 1), rgba(1, 70, 0, 1))',
             backgroundClip: "text",
@@ -225,13 +230,13 @@ const Timeline: React.FC = () => {
         >
          Contact Us
         </h1>
-        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right">
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-left">
         Get in touch with our team for any assistance and inquiries.
         </h6>
-        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Ishan Mohan(Events and logistics head)</b>: <a href="tel:+919821184504"><br/>+91 98211 84504</a></h6>
-        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Abhimanyu Dhull(Treasurer)</b>: <a href="tel:+919729245712"><br/>+91 97292 45712</a></h6>
-        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Arjun Singh Parihar(PR and Outreach head)</b>: <a href="tel:+917355619956"><br/>+91 73556 19956</a></h6>
-        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-right" ><b>Mail us:</b> <a href = "mailto: acm@bennett.something"><br/>acm@bennett.edu.in</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-left" ><b>Ishan Mohan(Events and Logistics head)</b>: <a href="tel:+919821184504"><br/>+91 98211 84504</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-left" ><b>Abhimanyu Dhull(Treasurer)</b>: <a href="tel:+919729245712"><br/>+91 97292 45712</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-left" ><b>Arjun Singh Parihar(PR and Outreach head)</b>: <a href="tel:+917355619956"><br/>+91 73556 19956</a></h6>
+        <h6 className="font-mono text-white mt-2 ml-10 mb-6 mr-5 text-left" ><b>Mail us:</b> <a href = "mailto: acm@bennett.something"><br/>acm@bennett.edu.in</a></h6>
         <br></br>
         <br></br>
 

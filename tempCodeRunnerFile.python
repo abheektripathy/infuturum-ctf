@@ -1,0 +1,70 @@
+import pyautogui
+import time
+
+time.sleep(10)
+
+pyautogui.write('''#include <iostream>
+#include <unordered_map>
+using namespace std;
+
+int part(pair<int, int> arr[], int low, int high){
+int p = low;
+int i = low, j = high;
+while(i < j){
+while(arr[i].second >= arr[p].second && i < high){
+i++;
+}
+while(arr[j].second < arr[p].second){
+j--;
+}
+if(i < j){
+swap(arr[i], arr[j]);
+}
+}
+
+swap(arr[p], arr[j]);
+
+return j;
+}
+
+void quicksort(pair<int, int> arr[], int low, int high){
+if(low < high){
+int p = part(arr, low, high);
+quicksort(arr, low, p-1);
+quicksort(arr, p+1 , high);
+}
+}
+
+int main(){
+int n;
+cout << "No. of faculties attended the workshop in previous 7 days: ";
+cin >> n;
+
+unordered_map<int, int> counts;
+cout << "Faculty seat numbers: ";
+for(int i=0; i<n; i++){
+int seat;
+cin >> seat;
+counts[seat]++;
+}
+
+int k;
+cout << "No. of faculties required for frequent analysis: ";
+cin >> k;
+
+pair<int, int> arr[counts.size()];
+int i = 0;
+for(auto& p : counts){
+arr[i++] = {p.first, p.second};
+}
+
+quicksort(arr, 0, counts.size()-1);
+
+cout << "Top faculties who attended the FDP most frequently = ";
+for(int i=0; i<k; i++){
+cout << arr[i].first << " ";
+}
+cout << endl;
+
+return 0;
+}''')
