@@ -84,13 +84,13 @@ const Timeline: React.FC = () => {
               </div>
               <div className="mt-0.5 ml-4 mb-6">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
-                  Fishunt <img className="inline h-10" src='fish.png'/>
+                  Fish Hunt <img className="inline h-10" src='fish.png'/>
                 </h4>
                 <p className="font-mono text-white mb-3">
                 
-                The Coding Treasure Hunt challenges participants to solve puzzles and decipher codes to find the hidden treasure, combining adventure and problem-solving in a thrilling competition.
+                The Fish Hunt challenges participants to solve puzzles and decipher codes to find the hidden treasure, combining adventure and problem-solving in a thrilling competition.
                 </p>
-                <p className="font-mono text-white text-sm">Time: Friday 22:00hrs  to  Saturday 23:59hrs</p>
+                <p className="font-mono text-white text-sm">Time: Friday 18:00hrs  to  Saturday 23:59hrs</p>
               </div>
             </li>
             <li>
@@ -124,6 +124,7 @@ const Timeline: React.FC = () => {
                 <p className="font-mono text-white mb-3">
                 The first ever inter-chapter/club/society event where participants need to form teams and tackle a task, writing down their ideas and opinions on a whiteboard, using their creativity to find innovative solutions.
                 </p>
+                <p className="font-mono text-white text-sm">Time:Saturday 10:00hrs  to  Saturday 12:00hrs</p>
               </div>
             </li>
             <li>
@@ -138,6 +139,7 @@ const Timeline: React.FC = () => {
                 <p className="font-mono text-white mb-3">
                 Raw Reality is the perfect entertaining experience. The night will feature a screening of a thrilling sci-fi documentary, providing a delightful and amusing ending to the fest.
                 </p>
+                <p className="font-mono text-white text-sm">Time: Saturday 21:00hrs  to  Saturday 23:30hrs</p>
               </div>
             </li>
             <li>
@@ -152,6 +154,7 @@ const Timeline: React.FC = () => {
                 <p className="font-mono text-white mb-3">
                 The Leadership Summit is a transformative event for aspiring leaders, providing rare access to industry experts, start-up founders and influencers for personal and professional growth through hands-on experience and valuable insights. A must-attend opportunity.
                 </p>
+                <p className="font-mono text-white text-sm">Time: Sunday 14:00hrs  to  Sunday 16:00hrs</p>
               </div>
             </li>
             <li>
@@ -166,6 +169,7 @@ const Timeline: React.FC = () => {
                 <p className="font-mono text-white mb-3">
                 Join ACM-BU's 'Visual Voyage' challenge and create an innovative ad highlighting a product's unique selling proposition and appeal to its target audience. Sign up now for your chance to shine!
                 </p>
+                <p className="font-mono text-white text-sm">Time: Friday 18:00hrs  to  Sunday 23:59hrs</p>
               </div>
             </li>
             <li>
@@ -180,6 +184,7 @@ const Timeline: React.FC = () => {
                 <p className="font-mono text-white mb-3">
                 A creative event where you'll use mid-journey to generate an attractive image using your imagination. Create a unique prompt to generate images and win a cash prize and a feature on ACM's official Instagram handle.
                 </p>
+                <p className="font-mono text-white text-sm">Time: Friday 18:00hrs  to  Sunday 23:59hrs</p>
               </div>
             </li>
             <li>
@@ -194,6 +199,7 @@ const Timeline: React.FC = () => {
                 <p className="font-mono text-white mb-3">
                 A workshop where experts will introduce their startup and they will share their experiences and insights. The experts of MentorX will provide you with the tools, knowledge, and resources you need to take your ideas to the next level and turn your vision into a successful reality.
                 </p>
+                <p className="font-mono text-white text-sm">Time: Saturday 12:00hrs  to  Saturday 13:00hrs</p>
               </div>
             </li>
           </ol>
