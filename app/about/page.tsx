@@ -64,6 +64,8 @@ const Timeline: React.FC = () => {
         </p>
         <br ></br>
         <br></br>
+        <p className="font-bold text-white mt-2 ml-10 mb-6 mr-10 text-left">Prize Pool of $46,069 across all events</p>
+        <br></br>
         <h1
           className="font-mono text-white text-2xl md:text-3xl lg:text-3xl xl:text-3xl font-bold font-mono text-left mb-1 ml-10 mr-5"
           style={{
@@ -90,7 +92,7 @@ const Timeline: React.FC = () => {
                 
                 The Fish Hunt challenges participants to solve puzzles and decipher codes to find the hidden treasure, combining adventure and problem-solving in a thrilling competition.
                 </p>
-                <p className="font-mono text-white text-sm">Time: Friday 18:00hrs  to  Saturday 23:59hrs</p>
+                <p className="font-mono text-white text-sm">Time: Friday 18:00hrs  to  Sunday 12:00hrs</p>
               </div>
             </li>
             <li>
