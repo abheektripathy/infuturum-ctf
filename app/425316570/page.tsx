@@ -4,13 +4,11 @@
 
 
 export default function Home() {
-    return (
-      
+    return ( 
   <>
 
   <div className="relative h-screen w-screen bg-black">
 
-    
     <div className="absolute inset-0 mb-10 flex items-center justify-center">
       
       <h1 className="text-white text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-bold font-poppins text-center mb-10 ml-5 mr-5"  style={{
@@ -19,14 +17,10 @@ export default function Home() {
           WebkitBackgroundClip: 'text',
           WebkitTextFillColor: 'transparent',
         }}>139.59.56.81</h1>
-      
-    
+        <h3>an ip?</h3>
   </div>
-   
-
   </div>
   </>
-  
     );
   }
   
