@@ -132,7 +132,7 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="font-mono text-white text-sm">25.02.23</p>
+                <p className="font-mono text-white text-sm">26.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
@@ -141,7 +141,7 @@ const Timeline: React.FC = () => {
                 <p className="font-mono text-white mb-3">
                 Raw Reality is the perfect entertaining experience. The night will feature a screening of a thrilling sci-fi documentary, providing a delightful and amusing ending to the fest.
                 </p>
-                <p className="font-mono text-white text-sm">Time: Saturday 21:00hrs  to  Saturday 23:30hrs</p>
+                <p className="font-mono text-white text-sm">Time: Sunday 21:00hrs  to  Sunday 23:30hrs</p>
               </div>
             </li>
             <li>
