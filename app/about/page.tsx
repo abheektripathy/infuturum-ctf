@@ -199,7 +199,7 @@ const Timeline: React.FC = () => {
                   MentorXWorkshop <img className="inline h-10" src='workshop.png'/>
                 </h4>
                 <p className="font-mono text-white mb-3">
-                A workshop where experts will introduce their startup and they will share their experiences and insights. The experts of MentorX will provide you with the tools, knowledge, and resources you need to take your ideas to the next level and turn your vision into a successful reality.
+                A workshop where experts will introduce their startup and they will share their experiences and insights. The experts of MentorX will provide you with the tools, knowledge, and resources you need to take your ideas to the next level and turn your vision into a successful reality. 
                 </p>
                 <p className="font-mono text-white text-sm">Time: Saturday 12:00hrs  to  Saturday 13:30hrs</p>
               </div>
