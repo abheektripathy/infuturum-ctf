@@ -64,6 +64,8 @@ const Timeline: React.FC = () => {
         </p>
         <br ></br>
         <br></br>
+        <p className="font-bold text-white mt-2 ml-10 mb-6 mr-10 text-left">Prize Pool of $46,069 across all events</p>
+        <br></br>
         <h1
           className="font-mono text-white text-2xl md:text-3xl lg:text-3xl xl:text-3xl font-bold font-mono text-left mb-1 ml-10 mr-5"
           style={{
@@ -90,7 +92,7 @@ const Timeline: React.FC = () => {
                 
                 The Fish Hunt challenges participants to solve puzzles and decipher codes to find the hidden treasure, combining adventure and problem-solving in a thrilling competition.
                 </p>
-                <p className="font-mono text-white text-sm">Time: Friday 18:00hrs  to  Saturday 23:59hrs</p>
+                <p className="font-mono text-white text-sm">Time: Friday 18:00hrs  to  Sunday 12:00hrs</p>
               </div>
             </li>
             <li>
@@ -130,7 +132,7 @@ const Timeline: React.FC = () => {
             <li>
               <div className="flex flex-start items-center pt-2">
                 <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 mr-3"></div>
-                <p className="font-mono text-white text-sm">25.02.23</p>
+                <p className="font-mono text-white text-sm">26.02.23</p>
               </div>
               <div className="mt-0.5 ml-4 pb-5">
                 <h4 className="text-green-600 font-semibold text-xl mb-1.5 font-mono">
@@ -139,7 +141,7 @@ const Timeline: React.FC = () => {
                 <p className="font-mono text-white mb-3">
                 Raw Reality is the perfect entertaining experience. The night will feature a screening of a thrilling sci-fi documentary, providing a delightful and amusing ending to the fest.
                 </p>
-                <p className="font-mono text-white text-sm">Time: Saturday 21:00hrs  to  Saturday 23:30hrs</p>
+                <p className="font-mono text-white text-sm">Time: Sunday 21:00hrs  to  Sunday 23:30hrs</p>
               </div>
             </li>
             <li>
@@ -197,9 +199,9 @@ const Timeline: React.FC = () => {
                   MentorXWorkshop <img className="inline h-10" src='workshop.png'/>
                 </h4>
                 <p className="font-mono text-white mb-3">
-                A workshop where experts will introduce their startup and they will share their experiences and insights. The experts of MentorX will provide you with the tools, knowledge, and resources you need to take your ideas to the next level and turn your vision into a successful reality.
+                A workshop where experts will introduce their startup and they will share their experiences and insights. The experts of MentorX will provide you with the tools, knowledge, and resources you need to take your ideas to the next level and turn your vision into a successful reality. 
                 </p>
-                <p className="font-mono text-white text-sm">Time: Saturday 12:00hrs  to  Saturday 13:00hrs</p>
+                <p className="font-mono text-white text-sm">Time: Saturday 12:00hrs  to  Saturday 13:30hrs</p>
               </div>
             </li>
           </ol>
